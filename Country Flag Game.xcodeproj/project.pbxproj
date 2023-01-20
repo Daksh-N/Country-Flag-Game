@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B67AAAE3297B570F00BBB4A6 /* Country_Flag_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67AAAE2297B570F00BBB4A6 /* Country_Flag_GameApp.swift */; };
+		B67AAAE5297B570F00BBB4A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67AAAE4297B570F00BBB4A6 /* ContentView.swift */; };
+		B67AAAE7297B571100BBB4A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67AAAE6297B571100BBB4A6 /* Assets.xcassets */; };
+		B67AAAEA297B571100BBB4A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67AAAE9297B571100BBB4A6 /* Preview Assets.xcassets */; };
+		B67AAAF4297B571100BBB4A6 /* Country_Flag_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67AAAF3297B571100BBB4A6 /* Country_Flag_GameTests.swift */; };
+		B67AAAFE297B571100BBB4A6 /* Country_Flag_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67AAAFD297B571100BBB4A6 /* Country_Flag_GameUITests.swift */; };
+		B67AAB00297B571100BBB4A6 /* Country_Flag_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67AAAFF297B571100BBB4A6 /* Country_Flag_GameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B67AAAF0297B571100BBB4A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B67AAAD7297B570F00BBB4A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B67AAADE297B570F00BBB4A6;
+			remoteInfo = "Country Flag Game";
+		};
+		B67AAAFA297B571100BBB4A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B67AAAD7297B570F00BBB4A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B67AAADE297B570F00BBB4A6;
+			remoteInfo = "Country Flag Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B67AAADF297B570F00BBB4A6 /* Country Flag Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Country Flag Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B67AAAE2297B570F00BBB4A6 /* Country_Flag_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country_Flag_GameApp.swift; sourceTree = "<group>"; };
+		B67AAAE4297B570F00BBB4A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B67AAAE6297B571100BBB4A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B67AAAE9297B571100BBB4A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B67AAAEF297B571100BBB4A6 /* Country Flag GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Country Flag GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B67AAAF3297B571100BBB4A6 /* Country_Flag_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country_Flag_GameTests.swift; sourceTree = "<group>"; };
+		B67AAAF9297B571100BBB4A6 /* Country Flag GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Country Flag GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B67AAAFD297B571100BBB4A6 /* Country_Flag_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country_Flag_GameUITests.swift; sourceTree = "<group>"; };
+		B67AAAFF297B571100BBB4A6 /* Country_Flag_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country_Flag_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B67AAADC297B570F00BBB4A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B67AAAEC297B571100BBB4A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B67AAAF6297B571100BBB4A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B67AAAD6297B570F00BBB4A6 = {
+			isa = PBXGroup;
+			children = (
+				B67AAAE1297B570F00BBB4A6 /* Country Flag Game */,
+				B67AAAF2297B571100BBB4A6 /* Country Flag GameTests */,
+				B67AAAFC297B571100BBB4A6 /* Country Flag GameUITests */,
+				B67AAAE0297B570F00BBB4A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B67AAAE0297B570F00BBB4A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B67AAADF297B570F00BBB4A6 /* Country Flag Game.app */,
+				B67AAAEF297B571100BBB4A6 /* Country Flag GameTests.xctest */,
+				B67AAAF9297B571100BBB4A6 /* Country Flag GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B67AAAE1297B570F00BBB4A6 /* Country Flag Game */ = {
+			isa = PBXGroup;
+			children = (
+				B67AAAE2297B570F00BBB4A6 /* Country_Flag_GameApp.swift */,
+				B67AAAE4297B570F00BBB4A6 /* ContentView.swift */,
+				B67AAAE6297B571100BBB4A6 /* Assets.xcassets */,
+				B67AAAE8297B571100BBB4A6 /* Preview Content */,
+			);
+			path = "Country Flag Game";
+			sourceTree = "<group>";
+		};
+		B67AAAE8297B571100BBB4A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B67AAAE9297B571100BBB4A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B67AAAF2297B571100BBB4A6 /* Country Flag GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				B67AAAF3297B571100BBB4A6 /* Country_Flag_GameTests.swift */,
+			);
+			path = "Country Flag GameTests";
+			sourceTree = "<group>";
+		};
+		B67AAAFC297B571100BBB4A6 /* Country Flag GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B67AAAFD297B571100BBB4A6 /* Country_Flag_GameUITests.swift */,
+				B67AAAFF297B571100BBB4A6 /* Country_Flag_GameUITestsLaunchTests.swift */,
+			);
+			path = "Country Flag GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B67AAADE297B570F00BBB4A6 /* Country Flag Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B67AAB03297B571100BBB4A6 /* Build configuration list for PBXNativeTarget "Country Flag Game" */;
+			buildPhases = (
+				B67AAADB297B570F00BBB4A6 /* Sources */,
+				B67AAADC297B570F00BBB4A6 /* Frameworks */,
+				B67AAADD297B570F00BBB4A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Country Flag Game";
+			productName = "Country Flag Game";
+			productReference = B67AAADF297B570F00BBB4A6 /* Country Flag Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B67AAAEE297B571100BBB4A6 /* Country Flag GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B67AAB06297B571100BBB4A6 /* Build configuration list for PBXNativeTarget "Country Flag GameTests" */;
+			buildPhases = (
+				B67AAAEB297B571100BBB4A6 /* Sources */,
+				B67AAAEC297B571100BBB4A6 /* Frameworks */,
+				B67AAAED297B571100BBB4A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B67AAAF1297B571100BBB4A6 /* PBXTargetDependency */,
+			);
+			name = "Country Flag GameTests";
+			productName = "Country Flag GameTests";
+			productReference = B67AAAEF297B571100BBB4A6 /* Country Flag GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B67AAAF8297B571100BBB4A6 /* Country Flag GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B67AAB09297B571100BBB4A6 /* Build configuration list for PBXNativeTarget "Country Flag GameUITests" */;
+			buildPhases = (
+				B67AAAF5297B571100BBB4A6 /* Sources */,
+				B67AAAF6297B571100BBB4A6 /* Frameworks */,
+				B67AAAF7297B571100BBB4A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B67AAAFB297B571100BBB4A6 /* PBXTargetDependency */,
+			);
+			name = "Country Flag GameUITests";
+			productName = "Country Flag GameUITests";
+			productReference = B67AAAF9297B571100BBB4A6 /* Country Flag GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B67AAAD7297B570F00BBB4A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					B67AAADE297B570F00BBB4A6 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					B67AAAEE297B571100BBB4A6 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = B67AAADE297B570F00BBB4A6;
+					};
+					B67AAAF8297B571100BBB4A6 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = B67AAADE297B570F00BBB4A6;
+					};
+				};
+			};
+			buildConfigurationList = B67AAADA297B570F00BBB4A6 /* Build configuration list for PBXProject "Country Flag Game" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B67AAAD6297B570F00BBB4A6;
+			productRefGroup = B67AAAE0297B570F00BBB4A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B67AAADE297B570F00BBB4A6 /* Country Flag Game */,
+				B67AAAEE297B571100BBB4A6 /* Country Flag GameTests */,
+				B67AAAF8297B571100BBB4A6 /* Country Flag GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B67AAADD297B570F00BBB4A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67AAAEA297B571100BBB4A6 /* Preview Assets.xcassets in Resources */,
+				B67AAAE7297B571100BBB4A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B67AAAED297B571100BBB4A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B67AAAF7297B571100BBB4A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B67AAADB297B570F00BBB4A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67AAAE5297B570F00BBB4A6 /* ContentView.swift in Sources */,
+				B67AAAE3297B570F00BBB4A6 /* Country_Flag_GameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B67AAAEB297B571100BBB4A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67AAAF4297B571100BBB4A6 /* Country_Flag_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B67AAAF5297B571100BBB4A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67AAAFE297B571100BBB4A6 /* Country_Flag_GameUITests.swift in Sources */,
+				B67AAB00297B571100BBB4A6 /* Country_Flag_GameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B67AAAF1297B571100BBB4A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B67AAADE297B570F00BBB4A6 /* Country Flag Game */;
+			targetProxy = B67AAAF0297B571100BBB4A6 /* PBXContainerItemProxy */;
+		};
+		B67AAAFB297B571100BBB4A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B67AAADE297B570F00BBB4A6 /* Country Flag Game */;
+			targetProxy = B67AAAFA297B571100BBB4A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B67AAB01297B571100BBB4A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B67AAB02297B571100BBB4A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B67AAB04297B571100BBB4A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Country Flag Game/Preview Content\"";
+				DEVELOPMENT_TEAM = Y9QJ22KDW7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "L.Country-Flag-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B67AAB05297B571100BBB4A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Country Flag Game/Preview Content\"";
+				DEVELOPMENT_TEAM = Y9QJ22KDW7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "L.Country-Flag-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B67AAB07297B571100BBB4A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y9QJ22KDW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "L.Country-Flag-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Country Flag Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Country Flag Game";
+			};
+			name = Debug;
+		};
+		B67AAB08297B571100BBB4A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y9QJ22KDW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "L.Country-Flag-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Country Flag Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Country Flag Game";
+			};
+			name = Release;
+		};
+		B67AAB0A297B571100BBB4A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y9QJ22KDW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "L.Country-Flag-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Country Flag Game";
+			};
+			name = Debug;
+		};
+		B67AAB0B297B571100BBB4A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y9QJ22KDW7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "L.Country-Flag-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Country Flag Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B67AAADA297B570F00BBB4A6 /* Build configuration list for PBXProject "Country Flag Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B67AAB01297B571100BBB4A6 /* Debug */,
+				B67AAB02297B571100BBB4A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B67AAB03297B571100BBB4A6 /* Build configuration list for PBXNativeTarget "Country Flag Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B67AAB04297B571100BBB4A6 /* Debug */,
+				B67AAB05297B571100BBB4A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B67AAB06297B571100BBB4A6 /* Build configuration list for PBXNativeTarget "Country Flag GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B67AAB07297B571100BBB4A6 /* Debug */,
+				B67AAB08297B571100BBB4A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B67AAB09297B571100BBB4A6 /* Build configuration list for PBXNativeTarget "Country Flag GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B67AAB0A297B571100BBB4A6 /* Debug */,
+				B67AAB0B297B571100BBB4A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B67AAAD7297B570F00BBB4A6 /* Project object */;
+}
