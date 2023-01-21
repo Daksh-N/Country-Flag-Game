@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B618FAA3297B63F1006525A5 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618FAA2297B63F1006525A5 /* Question.swift */; };
 		B67AAAE3297B570F00BBB4A6 /* Country_Flag_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67AAAE2297B570F00BBB4A6 /* Country_Flag_GameApp.swift */; };
 		B67AAAE5297B570F00BBB4A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67AAAE4297B570F00BBB4A6 /* ContentView.swift */; };
 		B67AAAE7297B571100BBB4A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67AAAE6297B571100BBB4A6 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B618FAA2297B63F1006525A5 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		B67AAADF297B570F00BBB4A6 /* Country Flag Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Country Flag Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67AAAE2297B570F00BBB4A6 /* Country_Flag_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country_Flag_GameApp.swift; sourceTree = "<group>"; };
 		B67AAAE4297B570F00BBB4A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B618FAA1297B63DA006525A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B618FAA2297B63F1006525A5 /* Question.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B67AAAD6297B570F00BBB4A6 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +105,10 @@
 			isa = PBXGroup;
 			children = (
 				B67AAAE2297B570F00BBB4A6 /* Country_Flag_GameApp.swift */,
-				B67AAAE4297B570F00BBB4A6 /* ContentView.swift */,
+				B67AAB0E297B607B00BBB4A6 /* Views */,
 				B67AAAE6297B571100BBB4A6 /* Assets.xcassets */,
+				B618FAA1297B63DA006525A5 /* Models */,
+				B67AAB0C297B5DAA00BBB4A6 /* Components */,
 				B67AAAE8297B571100BBB4A6 /* Preview Content */,
 			);
 			path = "Country Flag Game";
@@ -125,6 +137,29 @@
 				B67AAAFF297B571100BBB4A6 /* Country_Flag_GameUITestsLaunchTests.swift */,
 			);
 			path = "Country Flag GameUITests";
+			sourceTree = "<group>";
+		};
+		B67AAB0C297B5DAA00BBB4A6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B67AAB0D297B5DC700BBB4A6 /* Models */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B67AAB0D297B5DC700BBB4A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B67AAB0E297B607B00BBB4A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B67AAAE4297B570F00BBB4A6 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B618FAA3297B63F1006525A5 /* Question.swift in Sources */,
 				B67AAAE5297B570F00BBB4A6 /* ContentView.swift in Sources */,
 				B67AAAE3297B570F00BBB4A6 /* Country_Flag_GameApp.swift in Sources */,
 			);
