@@ -28,6 +28,7 @@ class QuizManager: ObservableObject {
         score = 0
         progress = 0.0
         playingGame = true
+        goToNextQuestion()
     }
     
     func goToNextQuestion() {

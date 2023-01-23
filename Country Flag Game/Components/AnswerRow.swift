@@ -39,6 +39,6 @@ struct AnswerRow: View {
 
 struct AnswerRow_Previews: PreviewProvider {
     static var previews: some View {
-        AnswerRow(answer: Answer(text: "Test", isCorrect: true))
+        AnswerRow(answer: Answer(text: "Test", isCorrect: true)).environmentObject(QuizManager())
     }
 }
